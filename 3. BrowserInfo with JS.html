@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Browser Info</title>
+</head>
+<body>
+    <h1>Browser Information</h1>
+    <p id="info"></p>
+    <script>
+        const info = `Browser: ${navigator.appName} <br>
+                      Version: ${navigator.appVersion} <br>
+                      Platform: ${navigator.platform} <br>
+                      Language: ${navigator.language}`;
+        document.getElementById("info").innerHTML = info;
+    </script>
+</body>
+</html>
